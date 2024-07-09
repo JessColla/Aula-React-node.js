@@ -1,0 +1,54 @@
+.app-header {
+  background-image: url('./img/dinamio.png');
+  background-repeat: no-repeat;
+  background-color: #0e2338;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  border: #da2626 solid 3px;
+}
+
+.app-generate{
+  display: flex;
+  align-items: center;
+  margin-top: 60px;
+  background-color: #da2626;
+  padding: 0px 20px;
+  border-radius: 20px;
+}
+
+.emails-numbers{
+  align-items: top;
+  width: 70%;
+}
+
+ul {
+  list-style-type: none; 
+  margin: 0; 
+  padding: 0; 
+}
+
+button {
+  font-size: 2rem;
+  padding: 0px 20px;
+  height: 60px;
+  background-color: #0e2338;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  margin: 0px 60px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+  background-color: #16324a;
+  transform: scale(1.05);
+}
+
+h2 {
+  margin-top: 40px;
+}

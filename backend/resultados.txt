@@ -1,0 +1,2 @@
+Menor número: 4
+Maior número: 99
